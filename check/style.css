@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'insiya';
+    src: url(assets/AMORIA.otf);
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    /* background-color: yellow; */
+}
+
+.nav-logo-container {
+    width: 20%;
+    height: 100%;
+    background-image: url(assets/insiya-frost-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.nav-links-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-links {
+    color: grey;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.active{
+    color: black;
+}
+
+.nav-cta-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    background-color: #9D002F;
+    border-radius: 1.25rem;
+}
+
+.search-icon{
+    width: 50%;
+    height: 100%;
+    /* background-color:yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake-icon{
+    font-size: 2rem;
+    color: white;
+}
+
+.hero-section{
+    width: 100%;
+    height: 85vh;
+    /* background-color: lightblue; */
+}
+
+.landing-container{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.hero-cards-container{
+    width: 100%;
+    height: 45%;
+    background-color: green;
+}
+
+.image-container-1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.hero-text-container{
+    width: 40%;
+    height: 100%;
+    /* background-color: olivedrab; */
+}
+
+.image-container-2{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    background-image: url('assets/cake-two.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.decorative-image-container{
+    width: 60%;
+    height: 20%;
+    margin: 0 auto 10%;
+    border-radius: 5rem;
+    border: 6px solid #9D002F;
+    background-image: url('https://images.unsplash.com/photo-1527515545081-5db817172677?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.actual-image-container{
+    width: 100%;
+    height: 70%;
+    background-image: url('assets/cake-one.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main-text{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'insiya';
+}
+
+.sub-text{
+    color: grey;
+    text-align: center;
+}
+
+.cta-hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.cta-hero-button button{
+    margin-top: 0.75rem;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background-color:#9D002F;
+    color: white;
+    text-transform: uppercase;
+    font-weight:700 ;
+}
